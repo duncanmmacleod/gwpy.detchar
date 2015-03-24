@@ -8,7 +8,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-bin/
 build/
 develop-eggs/
 dist/
@@ -33,15 +32,12 @@ pip-delete-this-directory.txt
 /docs/_generated
 
 # Version information
-/gwpy/version.py
+/gwpy/detchar/version.py
 
 # OS/editor files
 *.swp
 .DS_Store
 .idea
-
-# Examples output
-/examples/*.png
 
 # Patches
 /[0-9][0-9][0-9][0-9]-*.patch
